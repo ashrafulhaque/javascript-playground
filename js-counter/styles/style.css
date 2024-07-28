@@ -11,3 +11,44 @@ body {
     color: white;
     background-color: black;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+header>h1 {
+    font-size: 80px;
+    padding: 15px;
+}
+
+.container {
+    max-height: 50vh;
+    border: 2px solid whitesmoke;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.count {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 15px;
+    
+}
+
+#btn-increment {
+    background-color: greenyellow;
+}
+
+#btn-decrement {
+    background-color: orangered;
+}
+
